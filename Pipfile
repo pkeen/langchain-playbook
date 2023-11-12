@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+ipykernel = "*"
+openai = "*"
+python-dotenv = "*"
+pydantic = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+pypdf = "*"
+docx2txt = "*"
+wikipedia = "*"
+tiktoken = "*"
+chromadb = "*"
+numexpr = "*"
+google-search-results = "*"
+langchain-experimental = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
